@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+  
   
 <head>
   <meta charset="UTF-8">
@@ -27,4 +29,13 @@
         <p>&copy; 2025 My Website</p>
     </footer>
 </body>
+
+  <script>
+    let count = 0;
+    document.getElementById("counterButton").addEventListener("click", function() {
+        count++;
+        document.getElementById("counterText").innerText = "Count: " + count;
+    });
+</script>
+  
 </html>
